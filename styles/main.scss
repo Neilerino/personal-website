@@ -1,0 +1,74 @@
+// Variables
+
+$white: #FFFF !default;
+$black: #000 !default;
+$background: #080a19 !default;
+$gold: #ffbf00 !default;
+$dark-gold: #cc9900 !default;
+
+body, html {
+	height: 100%;
+	margin: 0;
+	background-color: $background;
+	font-family: "Avenir Next" !important;
+}
+
+.header {
+	&-image {
+		width: 100%;
+		height: 50%;
+		mask-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+	  	bottom: 0;
+	  	position: fixed;
+	}
+	
+	&-text {
+		text-align: center;
+		position: absolute;
+		font-size: 1.5rem;
+		top: 15%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color: $white;
+	}
+}
+
+.wrapper {
+	display: flex;
+	height: 100%;
+}
+
+.content {
+	display: flex;
+	padding: 3rem;
+	max-height: 4rem;
+	width: 70%;
+	margin-top: 10rem;
+	justify-content: space-between;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.item {
+	display: inline-block;
+	background-color: $gold;
+	color: $black;
+	width: 10rem;
+	border-radius: 1rem;
+	text-align: center;
+	cursor: pointer;
+
+	&:hover {
+		background-color: $dark-gold;	
+	}
+
+	&-content {
+		margin-top: 1.4rem;
+		font-size: 1.35rem;
+		line-height: 1rem;
+	}
+
+	&-header {
+		// background-color: 
+	}
+}

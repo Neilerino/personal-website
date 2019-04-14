@@ -1,0 +1,59 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  background-color: #080a19;
+  font-family: "Avenir Next" !important;
+}
+
+.header-image {
+  width: 100%;
+  height: 50%;
+  mask-image: linear-gradient(to top, black, rgba(0, 0, 0, 0));
+  bottom: 0;
+  position: fixed;
+}
+.header-text {
+  text-align: center;
+  position: absolute;
+  font-size: 1.5rem;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFFF;
+}
+
+.wrapper {
+  display: flex;
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  padding: 3rem;
+  max-height: 4rem;
+  width: 70%;
+  margin-top: 10rem;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item {
+  display: inline-block;
+  background-color: #ffbf00;
+  color: #000;
+  width: 10rem;
+  border-radius: 1rem;
+  text-align: center;
+  cursor: pointer;
+}
+.item:hover {
+  background-color: #cc9900;
+}
+.item-content {
+  margin-top: 1.4rem;
+  font-size: 1.35rem;
+  line-height: 1rem;
+}
+
+/*# sourceMappingURL=main.css.map */
