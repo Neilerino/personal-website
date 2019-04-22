@@ -1,0 +1,27 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "my personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neilerino/personal-website.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Neilerino/personal-website/issues"
+  },
+  "homepage": "https://github.com/Neilerino/personal-website#readme",
+  "dependencies": {
+    "alertifyjs": "^1.11.2",
+    "bootstrap": "^4.3.1",
+    "bootstrap-modal": "^2.2.4",
+    "jquery": "^3.4.0",
+    "liquid-fire": "^0.29.5",
+    "popper.js": "^1.15.0"
+  }
+}

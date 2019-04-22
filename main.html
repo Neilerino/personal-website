@@ -4,31 +4,36 @@
 	<meta charset="UTF-8">
 	<title>Neil Wadden</title>
 	<link rel="stylesheet" type="text/css" href="./styles/main.css">
+	<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="./javascript/main.js"></script>
 </head>
 <body>
 	<div class="wrapper">
 		<div class="header-text">
-			<h2>Neil Wadden</h1>
+			<h1>Neil Wadden</h1>
 			<p>Full Stack Engineer, Electrical Engineering Student</p>
 		</div>
-		<div class="content">
-			<div class="item">
+		<div class="content" id="main-section">
+			<div class="item" id="btn-about">
 				<div class="item-content">
 					About
 				</div>
 			</div>
-			<div class="item">
-				<div class="item-content">
-					Experience
-				</div>
-			</div>
-			<div class="item">
-				<div class="item-content">
+			<div class="item" id="btn-resume">
+				<div class="item-content" >
 					Resume
 				</div>
 			</div>
+			<div class="item" id="btn-exp">
+				<div class="item-content" >
+					Experience
+				</div>
+			</div>
 		</div>
-		<img class="header-image" src="./styles/background-image.jpeg">
+		<div class="content about-text d-none clear" id="about-section">
+			I'm an Electrical Engineering student, with a focus in web development. I'm extremely eager and love being taken out of my comfort zone. From my studies I have a strong mathamatical foundation, and from peronal learning, and internships I have a sound foundation in Full Stack Development. I'm pationaite about self learning and am never satisfied not improving myself.
+		</div>
 	</div>
+	<img class="header-image" src="./styles/background-image.jpeg">
 </body>
 </html>
