@@ -20,7 +20,7 @@ body, html {
   top: 15%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #FFFF;
+  color: #ffbf00;
 }
 
 .wrapper {
@@ -58,7 +58,7 @@ body, html {
 }
 .about-text {
   color: #FFFF;
-  text-size: 2rem;
+  font-size: 1.75rem;
 }
 
 .d-none {
@@ -67,6 +67,47 @@ body, html {
 
 .clear {
   opacity: 0;
+}
+
+.icon {
+  font-size: 2rem !important;
+  padding-top: 0.7rem;
+  padding-left: 0.9rem;
+  color: #ffbf00;
+  transition: 0.7s;
+}
+.icon-envelope {
+  padding-left: 0.75rem !important;
+}
+.icon-github {
+  font-size: 2.5rem !important;
+  padding-top: 0.5rem !important;
+  padding-left: 0.7rem !important;
+}
+.icon-circle {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #ffbf00;
+  width: 3.5rem;
+  height: 3.5rem;
+  background: none;
+  cursor: pointer;
+  transition: 0.7s;
+}
+.icon-circle:hover {
+  background-color: #ffbf00;
+}
+.icon-circle:hover .icon {
+  color: #000;
+}
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  padding-top: 9rem;
+  position: absolute;
 }
 
 /*# sourceMappingURL=main.css.map */
